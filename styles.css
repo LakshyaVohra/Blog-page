@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html {
+	background-color: rgb(13, 8, 48);
+}
+
+#welcomeText {
+	color: tomato;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+    margin: 20px;
+}
+
+#scrollToTop {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background-color: firebrick;
+	opacity: 0.5;
+}
+
+#scrollToTop a {
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	padding: 5%;
+	background-color:rgb(6, 65, 65);
+	color: sandybrown;
+	border: 2px solid greenyellow;
+    text-align: justify;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+footer {
+	height: 320px;
+	margin: 5px;
+    padding-left: 10px;
+	background-color: rgb(10, 131, 67);
+    color: rgb(0,0,0);
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+#blog2, #blog1 {
+	float: left;
+	margin-left: 320px;
+}
+#blog3 {
+	float: right;
+	margin-right: 320px;
+}
+
+li img {
+	height: 250px;
+	width: 300px;
+}
